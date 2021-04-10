@@ -44,11 +44,6 @@ message = draw.create_text(10,
             text="num=start/stop",
             anchor="w", font="Courier 20 bold")
 draw.configure(bg='#00b140')
-# s = sched.scheduler(time.time, time.sleep)# def do_something(sc):
-#     print("Doing stuff...")
-#     # do your stuff
-#     s.enter(60, 1, do_something, (sc,))
-# s.enter(60, 1, do_something, (s,))
 
 def on_click(x, y, button, pressed):
 	if(pressed):
